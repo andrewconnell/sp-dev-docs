@@ -1,0 +1,105 @@
+---
+name: Question or generic issue (not a bug or feature request)
+about: Do you have a question that isn't a bug or feature request, or something else that doesn't fit one of our provided templates? Select this option.
+title: ''
+labels: 'Needs: Triage'
+assignees: ''
+issue_body: true
+body:
+- type: markdown
+  attributes:
+    value: |
+      This is for SharePoint development topics. If your submission is now about SharePoint development such as out-of-the-box capabilities, SharePoint configuration, or Please use refer to other support options listed on the [new issue chooser page](https://github.com/SharePoint/sp-dev-docs/issues/new/choose). Please provide as much information as possible so we can best address your submission. Thanks!
+
+      - Follow our guidance on [How To Create Good Issues](https://github.com/sharepoint/sp-dev-docs/wiki/How-to-Create-Good-Issues).
+      - Remember to include sufficient details and context.
+      - If you have multiple questions, suggestions, or bugs, please submit them in separate issues.
+- type: dropdown
+  id: category
+  attributes:
+    label: Category
+    description: Select the type of issue.
+    options:
+      - Question
+      - Typo
+      - Bug
+      - Additional article idea
+  validations:
+    required: true
+- type: textarea
+  label: Question / description
+
+- type: markdown
+  attributes:
+    value: |
+      Please provide the following details about your environment. *If this section is ignored, your submission will be flagged as **incomplete** & automatically closed.*
+- type: dropdown
+  id: dev_environment
+  attributes:
+    label: Developer environment
+    options:
+      - Windows
+      - macOS
+      - Linux
+  validations:
+    required: true
+- type: dropdown
+  id: target_environment
+  attributes:
+    label: Target SharePoint environment
+    options:
+      - SharePoint Online
+      - SharePoint Server 2019 (on-premise)
+      - SharePoint Server 2016 (on-premise)
+      - other (enter below)
+  validations:
+    required: true
+- type: input
+  id: target_environment_other
+  attributes:
+    label: Target environment (other)
+    description: Include as much detail about the environment you're targetting. *This is required if "other (enter below)" is selected in the previous field.*
+- type: checkbox
+  id: client
+  attributes:
+    label: Browser(s)/Client(s)
+    description: Select the browser(s)/clients this question is relevant to. Use the following field for version details if applicable.
+  validation:
+    - Internet Explorer
+    - Microsoft Edge
+    - Google Chrome
+    - FireFox
+    - Safari
+    - mobile (iOS/iPadOS)
+    - mobile (Android)
+    - not applicable ()
+    - other (enter below)
+  validations:
+    required: true
+- type: input
+  id: client_other
+  attributes:
+    label: Target environment (other)
+    description: Include as much detail about the environment you're targetting. This is required if "other (enter below)" is selected in the previous field.
+- type: textarea
+  id: tooling
+  attributes:
+    label: Tooling / Frameworks / Microsoft Libraries
+    description: |
+      What tooling, frameworks, or official libraries is this related to? Please include version information where applicable.
+
+      **This form is only for officially supported Microsoft products**.
+
+      *If your question is about a third-party or another library/SDK/tooling that is not officially supported by Microsoft, please submit your issue to that project's relevant forum.*
+    value: |
+      - Visual Studio Code
+      - Visual Studio (version?)
+      - .NET (version?)
+      - Node.js (version?)
+      - SharePoint Framework (version?)
+      - SharePoint Add-ins
+      - SharePoint CSOM
+      - SharePoint REST API
+  validations:
+    required: true
+---
