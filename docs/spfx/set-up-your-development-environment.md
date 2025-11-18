@@ -19,6 +19,8 @@ You can also follow these steps by watching this video on the Microsoft 365 Plat
 > [!IMPORTANT]
 > The following steps assume you're building solutions for SharePoint Online using the latest version of the SharePoint Framework. If you're building solutions for SharePoint Server 2019 or SharePoint Server 2016, refer to the additional documentation referenced in the [See also](#see-also) section below.
 
+[!INCLUDE [spfx-gulp-heft-migration-commands](../../includes/snippets/spfx-gulp-heft-migration-commands.md)]
+
 ## Install Node.js
 
 Install the most recent LTS version of **[Node.js](https://www.nodejs.org) v22**.

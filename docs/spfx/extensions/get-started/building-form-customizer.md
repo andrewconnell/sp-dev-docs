@@ -1,10 +1,9 @@
 ---
 title: Build your first Form customizer extension
 description: Form customizers are SharePoint Framework components giving you an option to override the form experience at a list or library level by associating the component with the used content type.
-ms.date: 11/14/2025
+ms.date: 11/18/2025
 ms.custom: scenarios:getting-started
 ---
-
 # Build your first Form Customizer extension
 
 Form customizers are SharePoint Framework components that give you an option to override the form experience at a list or library level by associating the component with the used content type. Form customizer components can be used in SharePoint Online, and you build them using  modern JavaScript tools and libraries.
@@ -14,6 +13,8 @@ Form customizers are SharePoint Framework components that give you an option to 
 
 > [!TIP]
 > You can find the output from this tutorial from [GitHub](https://github.com/pnp/spfx-reference-scenarios/tree/main/samples/spfx-formcustomizer-basics).
+
+[!INCLUDE [spfx-gulp-heft-migration-commands](../../includes/snippets/spfx-gulp-heft-migration-commands.md)]
 
 ## Create an extension project
 

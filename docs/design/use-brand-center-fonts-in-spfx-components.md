@@ -1,10 +1,9 @@
 ---
 title: Use SharePoint brand center fonts in SharePoint Framework solutions
 description: Developers can use the fonts defined in Brand center in their SharePoint Framework (SPFx) components. This article demonstrates how you can use the fonts defined in the SharePoint brand center in your SPFx components.
-ms.date: 04/23/2025
+ms.date: 11/18/2025
 ms.localizationpriority: high
 ---
-
 # Use SharePoint brand center fonts in SharePoint Framework solutions
 
 The [SharePoint brand center](/sharepoint/brand-center-overview) offers a centralized branding management application that empowers your brand managers or designated brand owners to help your organization to customize the look and feel of their experiences. This brand asset management system allows customers to manage the colors, fonts, and images, and other assets all in one place.
@@ -14,6 +13,8 @@ Developers can use the fonts defined in Brand center in their SharePoint Framewo
 ![Screenshot of the SharePoint brand center](../images/brand-center-spfx-01.png)
 
 In this article, learn how you can modify your SPFx components to use the same fonts set in the
+
+[!INCLUDE [spfx-gulp-heft-migration-commands](../../includes/snippets/spfx-gulp-heft-migration-commands.md)]
 
 ## Use SharePoint brand center fonts in SPFx components
 

@@ -1,12 +1,10 @@
 ---
 title: Build your first SharePoint Framework Extension (Hello World part 1)
 description: Create an extension project, and then code and debug your Application Customizer.
-ms.date: 12/4/2023
+ms.date: 11/18/2025
 ms.localizationpriority: high
 ms.custom: scenarios:getting-started
 ---
-
-
 # Build your first SharePoint Framework Extension (Hello World part 1)
 
 SharePoint Framework (SPFx) Extensions are client-side components that run inside the context of a SharePoint page. You can deploy extensions to SharePoint Online, and you can use modern JavaScript tools and libraries to build them.
@@ -17,6 +15,8 @@ You can also follow the steps in this article by watching the video on the Micro
 
 > [!IMPORTANT]
 > The SharePoint page [HTML DOM](https://www.w3.org/TR/WD-DOM/introduction.html) is not an API. You should avoid taking any dependencies on the page DOM structure or CSS styles, which are subject to change and potentially break your solutions. SharePoint Framework provides a rich API to customize the SharePoint experience in reliable ways and is the only supported means to interact with the SharePoint page HTML DOM.
+
+[!INCLUDE [spfx-gulp-heft-migration-commands](../../includes/snippets/spfx-gulp-heft-migration-commands.md)]
 
 ## Create an extension project
 

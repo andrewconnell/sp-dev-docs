@@ -1,11 +1,10 @@
 ---
 title: Transform SharePoint add-in App Parts and classic web parts to SharePoint Framework web parts
 description: Transform SharePoint add-in App Parts and classic web parts to SharePoint Framework web parts.
-ms.date: 08/28/2023
+ms.date: 11/18/2025
 ms.localizationpriority: high
 ms.service: sharepoint
 ---
-
 # Transform SharePoint add-in App Parts and classic web parts to SharePoint Framework web parts
 
 In the SharePoint Add-in model, you're used to creating custom web parts for SharePoint classic pages by creating App Parts. In the new SharePoint Framework, you can achieve the same result both for classic and modern pages by creating client-side web parts.
@@ -18,6 +17,8 @@ If you prefer, you can watch the following video, instead of reading the whole a
 
 > [!NOTE]
 > You can find further details about creating SharePoint Framework web parts by reading the document [Build your first SharePoint client-side web part](../spfx/web-parts/get-started/build-a-hello-world-web-part.md).
+
+[!INCLUDE [spfx-gulp-heft-migration-commands](../../includes/snippets/spfx-gulp-heft-migration-commands.md)]
 
 ## Transforming an App Part into a client-side web part
 

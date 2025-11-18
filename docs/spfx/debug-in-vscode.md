@@ -1,7 +1,7 @@
 ---
 title: Debug SharePoint Framework solutions in Visual Studio Code
 description: Prerequisites and steps for configuring Visual Studio Code for debugging SharePoint Framework solutions.
-ms.date: 04/26/2025
+ms.date: 11/18/2025
 ms.localizationpriority: high
 ---
 # Debug SharePoint Framework solutions in Visual Studio Code
@@ -11,6 +11,8 @@ Visual Studio Code is a popular code editor frequently used for building SharePo
 You can also see the required steps to enable debugging in Visual Studio Code in this video on the Microsoft 365 Platform Community (PnP) YouTube Channel:
 
 > [!VIDEO https://www.youtube.com/embed/oNChcluMrm8]
+
+[!INCLUDE [spfx-gulp-heft-migration-commands](../../includes/snippets/spfx-gulp-heft-migration-commands.md)]
 
 ## Prerequisites
 

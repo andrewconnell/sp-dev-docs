@@ -1,11 +1,10 @@
 ---
 title: Deploy your extension to SharePoint (Hello World part 3)
 description: Deploy your SharePoint Framework Application Customizer to SharePoint and see it working on modern SharePoint pages.
-ms.date: 11/22/2022
+ms.date: 11/18/2025
 ms.localizationpriority: high
 ms.custom: scenarios:getting-started
 ---
-
 # Deploy your extension to SharePoint (Hello World part 3)
 
 This article describes how to deploy your SharePoint Framework (SPFx) Application Customizer to SharePoint and see it working on modern SharePoint pages.
@@ -15,7 +14,7 @@ Be sure you've completed the procedures in the following articles before you beg
 - [Build your first SharePoint Framework Extension (Hello World part 1)](./build-a-hello-world-extension.md)
 - [Use page placeholders from Application Customizer (Hello World part 2)](./using-page-placeholder-with-extensions.md)
 
-You can also follow these steps by watching the video on the Microsoft 365 Platform Communtiy (PnP) YouTube Channel:
+You can also follow these steps by watching the video on the Microsoft 365 Platform Community (PnP) YouTube Channel:
 
 > [!Video https://www.youtube.com/embed/tReoZGtAYB4]
 
@@ -24,6 +23,8 @@ There are few different ways on getting your SPFx extensions deployed and activa
 - Activate the extension on specific site(s) using the Feature Framework-based activation option once the solution is installed. This is the only model that supports [site level assets getting created or deployed](/sharepoint/dev/spfx/toolchain/provision-sharepoint-assets) as part of the solution activation.
 - Use the [tenant-scoped deployment option](/sharepoint/dev/spfx/tenant-scoped-deployment) and activate the extension on specific sites available SharePoint APIs and interfaces.
 - Use the tenant-wide deployment option for extensions from app catalog. This capability was introduced in the SharePoint Framework v1.6.
+
+[!INCLUDE [spfx-gulp-heft-migration-commands](../../includes/snippets/spfx-gulp-heft-migration-commands.md)]
 
 ## Package the Hello World Application Customizer
 

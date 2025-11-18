@@ -1,7 +1,7 @@
 ---
 title: Debug SharePoint Framework solutions on modern SharePoint pages
 description: Guidance on how to debug SharePoint Framework solutions on modern SharePoint pages
-ms.date: 11/14/2025
+ms.date: 11/18/2025
 ms.localizationpriority: high
 ---
 # Debug SharePoint Framework solutions on modern SharePoint pages
@@ -10,6 +10,8 @@ When building SharePoint Framework solutions, you can test them on modern ShareP
 
 > [!IMPORTANT]
 > While there are no technical restrictions for debugging local SharePoint Framework solutions on modern SharePoint pages, you should be careful when using them in your production tenant. This capability allows you to execute code that hasn't been tested and verified against your organization's policies and could be harmful to your production data.
+
+[!INCLUDE [spfx-gulp-heft-migration-commands](../../includes/snippets/spfx-gulp-heft-migration-commands.md)]
 
 ## Debug SharePoint Framework extensions on modern SharePoint pages
 
@@ -123,11 +125,11 @@ https://contoso.sharepoint.com/sites/team-a/sitepages/news.aspx
 
 > [!NOTE]
 > Starting with **Chromium 141**, browsers such as **Microsoft Edge** and **Google Chrome** enforce a new security model called **Local Network Access**.
-> 
-> When debugging SPFx solutions, SharePoint Online must load resources from your local development environment (such as `https://localhost:4321`).  
+>
+> When debugging SPFx solutions, SharePoint Online must load resources from your local development environment (such as `https://localhost:4321`).
 >
 > When prompted with **“Allow this site to access devices on your local network?”**, you must select **Allow** in Edge or Chrome.
-> 
+>
 > If permission is denied, SPFx debug manifests and bundles cannot load, and the web part will fail during debugging.
 
 The following are the query string parameters that you need to add:
@@ -335,4 +337,3 @@ This approach should only be used when you're in development mode. If you deploy
 - [Testing and debugging your SPFx solutions in production without causing any impact (Elio Struyf)](https://www.eliostruyf.com/testing-and-debugging-your-spfx-solutions-in-production-without-causing-any-impact/)
 - [Yeoman generator for the SharePoint Framework](yeoman-generator-for-spfx-intro.md)
 - [SharePoint Framework Overview](sharepoint-framework-overview.md)
-

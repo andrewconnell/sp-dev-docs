@@ -1,13 +1,15 @@
 ---
 title: Build solutions with the library component type in SharePoint Framework
 description: Build solutions with the library component type in SharePoint Framework
-ms.date: 12/13/2021
+ms.date: 11/18/2025
 ms.localizationpriority: high
 ---
 
 # Build solutions with the library component type in SharePoint Framework
 
 In this tutorial, you'll create a SharePoint Framework (SPFx) library component and use it within a client-side web part.
+
+[!INCLUDE [spfx-gulp-heft-migration-commands](../../includes/snippets/spfx-gulp-heft-migration-commands.md)]
 
 ## How to create a third-party SPFx library
 

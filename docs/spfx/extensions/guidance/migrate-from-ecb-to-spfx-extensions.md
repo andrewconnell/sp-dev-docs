@@ -1,15 +1,16 @@
 ---
 title: Tutorial - Migrating from Edit Control Block (ECB) menu item to SharePoint Framework Extension
 description: Migrate from old "classic" customizations (ECB) to the new model based on SharePoint Framework extensions.
-ms.date: 04/26/2025
+ms.date: 11/18/2025
 ms.localizationpriority: medium
 ---
-
 # Migrate Edit Control Block (ECB) menu items to SharePoint Framework extensions
 
 During the last few years, most of the enterprise solutions built on top of Microsoft 365 and SharePoint Online leveraged the site `CustomAction` capability of the SharePoint Feature Framework to extend the UI of pages. With the "modern" UI of SharePoint, most of those customizations are no longer available. With SharePoint Framework extensions, you can provide similar functionality in the "modern" UI.
 
 In this tutorial, you learn how to migrate a legacy "classic" customizations to the current model: SharePoint Framework extensions.
+
+[!INCLUDE [spfx-gulp-heft-migration-commands](../../includes/snippets/spfx-gulp-heft-migration-commands.md)]
 
 First, let's introduce the available options when developing SharePoint Framework extensions:
 

@@ -1,7 +1,7 @@
 ---
 title: Build your first ListView Command Set extension
 description: Create an extension project, and then code and debug your extension by using SharePoint Framework (SPFx) Extensions.
-ms.date: 12/14/2023
+ms.date: 11/18/2025
 ms.custom: scenarios:getting-started
 ---
 # Build your first ListView Command Set extension
@@ -11,6 +11,8 @@ Extensions are client-side components that run inside the context of a SharePoin
 You can follow these steps by watching the video on the Microsoft 365 Platform Communtiy (PnP) YouTube Channel:
 
 > [!Video https://www.youtube.com/embed/uaUGtLrNbRA]
+
+[!INCLUDE [spfx-gulp-heft-migration-commands](../../includes/snippets/spfx-gulp-heft-migration-commands.md)]
 
 ## Create an extension project
 

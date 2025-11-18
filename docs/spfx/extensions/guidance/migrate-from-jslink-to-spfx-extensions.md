@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Migrating from JSLink to SharePoint Framework extensions
 description: Migrate from old "classic" customizations (JSLink) to the new model based on SharePoint Framework extensions.
-ms.date: 04/26/2025
+ms.date: 11/18/2025
 ms.localizationpriority: high
 ---
 # Migrating from JSLink to SharePoint Framework extensions
@@ -14,6 +14,8 @@ In this tutorial, you learn how to migrate from the old "classic" customizations
 
 > [!NOTE]
 > For more information about how to build SharePoint Framework extensions, see [Overview of SharePoint Framework extensions](../overview-extensions.md).
+
+[!INCLUDE [spfx-gulp-heft-migration-commands](../../includes/snippets/spfx-gulp-heft-migration-commands.md)]
 
 First, let's introduce the available options when developing SharePoint Framework extensions:
 

@@ -1,11 +1,10 @@
 ---
 title: Transforming classic SharePoint add-in notifications to SPFx Application Customizers
 description: Transforming classic SharePoint add-in notifications to SPFx Application Customizers.
-ms.date: 08/28/2023
+ms.date: 11/18/2025
 ms.localizationpriority: high
 ms.service: sharepoint
 ---
-
 # Transforming classic SharePoint add-in notifications to SPFx Application Customizers
 
 In the SharePoint Add-in model you were used to rely on the JavaScript Object Model for SharePoint to show notifications and status bars using syntax like the following:
@@ -29,6 +28,8 @@ If you prefer, you can watch the following video, instead of reading the whole a
 
 > [!NOTE]
 > You can find further details about creating a SharePoint Framework Application Customizer by reading the documents [Build your first SharePoint Framework Extension (Hello World part 1)](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/extensions/get-started/build-a-hello-world-extension) and [Use page placeholders from Application Customizer (Hello World part 2)](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/extensions/get-started/using-page-placeholder-with-extensions).
+
+[!INCLUDE [spfx-gulp-heft-migration-commands](../../includes/snippets/spfx-gulp-heft-migration-commands.md)]
 
 ## Setting the context
 
@@ -207,7 +208,7 @@ import {
 
 export class Notification extends
     React.Component<INotificationProperties, INotificationState> {
-    
+
     constructor(props: INotificationProperties) {
         super(props);
 
@@ -215,7 +216,7 @@ export class Notification extends
             showMessage: props.showMessage
         };
     }
-    
+
     public render(): JSX.Element {
 
         return (<div>
@@ -272,9 +273,9 @@ export interface INotificationHeaderApplicationCustomizerProperties {
 /** A Custom Action which can be run during execution of a Client Side Application */
 export default class NotificationHeaderApplicationCustomizer
   extends BaseApplicationCustomizer<INotificationHeaderApplicationCustomizerProperties> {
-  
+
   private _topPlaceholder?: PlaceholderContent;
-  
+
   public async onInit(): Promise<void> {
     Log.info(LOG_SOURCE, `Initialized ${strings.Title}`);
 

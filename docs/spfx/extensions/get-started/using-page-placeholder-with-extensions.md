@@ -1,10 +1,9 @@
 ---
 title: Use page placeholders from Application Customizer (Hello World part 2)
 description: Extend your Hello World extension to take advantage of page placeholders by using SharePoint Framework (SPFx) Extensions.
-ms.date: 12/14/2023
+ms.date: 11/18/2025
 ms.custom: scenarios:getting-started
 ---
-
 # Use page placeholders from Application Customizer (Hello World part 2)
 
 Application Customizers provide access to well-known locations on SharePoint pages that you can modify based on your business and functional requirements. For example, you can create dynamic header and footer experiences that render across all the pages in SharePoint Online.
@@ -16,6 +15,8 @@ This article describes how to extend your [Hello World extension](./build-a-hell
 You can also follow these steps by watching the video on the Microsoft 365 Platform Communtiy (PnP) YouTube Channel:
 
 > [!Video https://www.youtube.com/embed/Wm1PG8U5bSw]
+
+[!INCLUDE [spfx-gulp-heft-migration-commands](../../includes/snippets/spfx-gulp-heft-migration-commands.md)]
 
 ## Get access to page placeholders
 

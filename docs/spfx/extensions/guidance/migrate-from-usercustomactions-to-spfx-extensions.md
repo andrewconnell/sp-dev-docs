@@ -1,15 +1,16 @@
 ---
 title: Tutorial - Migrating from UserCustomAction to SharePoint Framework extensions
 description: Migrate from old "classic" customizations (CustomAction) to the new model based on SharePoint Framework extensions.
-ms.date: 04/26/2025
+ms.date: 11/18/2025
 ms.localizationpriority: medium
 ---
-
 # Migrating from UserCustomAction to SharePoint Framework extensions
 
 Many enterprise solutions built on top of Microsoft 365 and SharePoint Online leveraged the site *CustomAction* capability of the SharePoint Feature Framework to extend the UI of pages. In the current "modern" UI of SharePoint Server 2019 and SharePoint Online, most of those customizations are no longer available. Fortunately, with SharePoint Framework extensions, you can provide similar functionality in the "modern" UI.
 
 In this tutorial, you learn how to migrate from the old "classic" customizations to the new model based on SharePoint Framework extensions.
+
+[!INCLUDE [spfx-gulp-heft-migration-commands](../../includes/snippets/spfx-gulp-heft-migration-commands.md)]
 
 First, let's introduce the available options when developing SharePoint Framework extensions:
 
