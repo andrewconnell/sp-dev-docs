@@ -1,12 +1,12 @@
 ---
 title: SharePoint Framework v1.23 preview notes
 description: Release notes for the SharePoint Framework v1.23 preview release.
-ms.date: 04/21/2026
+ms.date: 03/20/2026
 ms.localizationpriority: high
 ---
 # SharePoint Framework v1.23 preview release notes
 
-This is an early baseline version for the upcoming SharePoint 1.23 version with initial updates. We are introducing new capabilities as part of the following updates before the general availability of 1.23.
+This is an early baseline version for the upcoming SharePoint Framework 1.23 version with initial updates. We are introducing new capabilities as part of the following updates before the general availability of v1.23.
 
 [!INCLUDE [spfx-release-beta](../../includes/snippets/spfx-release-beta.md)]
 
@@ -34,7 +34,7 @@ The upgrade steps required to convert a [gulp-based toolchain](toolchain/sharepo
 
 ### Grouping support for list view command sets
 
-Starting with the SPFx 1.23, we will be also supporting grouping of list view command sets in the toolbar and in the context menu. This provides more control on how the list view commands are rendered in lists and libraries.
+Starting with the SPFx v1.23, we will be also supporting grouping of list view command sets in the toolbar and in the context menu. This provides more control on how the list view commands are rendered in lists and libraries.
 
 ![Card personalization visible in the dashboard UI](../images/123-release/list-view-cmdset-grouping.png)
 
@@ -77,11 +77,11 @@ Your feedback is welcome. Let us know your first impressions and provide suggest
 
 When installing the SharePoint Framework Yeoman generator or scaffolding solutions, we have worked on the reported `npm audit` issues. Addressing vulnerabilities is a moving target, which we keep on addressing with all releases.
 
-We have identified issues on the npm audit still for the 1.23 release which will be addressed with the upcoming RC1 release before we are ready for General Availability of 1.23.
+We have identified issues on the npm audit still for the v1.23 release which will be addressed release before we are ready for General Availability of v1.23.
 
 ## Deprecations
 
-No new updates.
+- **Hosted workbench is deprecated** - This is the last release that will include support for the SharePoint Framework online workbench; the hosted workbench will be retired on May 6, 2027. The recommended replacement is to use the [SharePoint Framework Debug Toolbar](../../docs/spfx/debug-toolbar.md)
 
 ## Feedback and issues
 
